@@ -18,7 +18,7 @@
 
 #v(3cm)
 
-#align(center, text(if naslov == "Шаблон и упутство за писање завршних радова"
+#align(center, text(if naslov == "Памтни генератор тестних података - TestDataGen"
           { "Проф. др Игор Дејановић" } else { autor },
           size: 20pt))
 
@@ -28,7 +28,7 @@
 
 #v(1cm)
 
-#if naslov != "Шаблон и упутство за писање завршних радова" {
+#if naslov != "Памтни генератор тестних података - TestDataGen" {
     align(center, text("ЗАВРШНИ РАД", size: 20pt))
     align(center, text(stepen, size: 20pt))
 }

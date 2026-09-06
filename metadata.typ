@@ -1,12 +1,12 @@
-#let format_strane = "iso-b5"         // могуће вредности: iso-b5, a4
-#let naslov = "Шаблон и упутство за писање завршних радова"
-#let autor = "Уписати име и презиме"
+#let format_strane = "a4"         // могуће вредности: iso-b5, a4
+#let naslov = "Паметни генератор тестних података - TestDataGen"
+#let autor = "Милица Ђумић"
 
 // На енглеском
-#let naslov_eng = "Template and tutorial for thesis preparation"
-#let autor_eng = "Upisati ime i prezime na latinici"
+#let naslov_eng = "Clever test data generator - TestDataGen"
+#let autor_eng = "Milica Đumić"
 
-#let indeks = "Уписати индекс"
+#let indeks = "R2 5/2022"
 
 // Име и презиме ментора
 #let mentor = "Игор Дејановић"
@@ -21,18 +21,17 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Шаблон, завршни рад, упутство"
+#let kljucne_reci = "Језици специфични за домен, генератори тестних података, "
 #let apstrakt = [
-     Овај документ представља упутство за писање завршних радова на Факултету
-     техничких наука Универзитета у Новом Саду. У исто време је и шаблон за Typst.
+     Научни рад описује софтверски алат за паметно генерисање тестних података за
+     различите типове излазних података.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Template, thesis, tutorial"
+#let kljucne_reci_eng = "Domain specific language, test data generator, "
 #let apstrakt_eng = [
-     This document provides guidelines for writing final theses at the Faculty
-     of Technical Sciences, University of Novi Sad. At the same time, it serves
-     as a Typst template.
+    Scientific paper describes a software tool for the smart generation of test
+    data for various types of output data .
 ]
 
 // TODO: Текст задатка добијате од ментора. Заменити доле #lorem(100) са текстом задатка.
@@ -41,7 +40,7 @@
 ]
 
 // TODO: Датум одбране и чланове комисије добијате од ментора
-#let datum_odbrane = "01.01.2025"
+#let datum_odbrane = "01.09.2026."
 #let komisija_predsednik = "Петар Петровић"
 #let komisija_predsednik_zvanje = "ванредни професор"
 #let komisija_clan = "Марко Марковић"
