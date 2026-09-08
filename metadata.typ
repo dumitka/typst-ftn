@@ -1,9 +1,9 @@
 #let format_strane = "a4"         // могуће вредности: iso-b5, a4
-#let naslov = "Паметни генератор тестних података - TestDataGen"
+#let naslov = "TestDataGen: Језик специфичан за домен генерисања тестних података"
 #let autor = "Милица Ђумић"
 
 // На енглеском
-#let naslov_eng = "Clever test data generator - TestDataGen"
+#let naslov_eng = "TestDataGen: A Domain-Specific Language for Test Data Generation"
 #let autor_eng = "Milica Đumić"
 
 #let indeks = "R2 5/2022"
