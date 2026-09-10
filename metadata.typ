@@ -21,14 +21,14 @@
 
 #let godina = [#datetime.today().year()]
 
-#let kljucne_reci = "Језици специфични за домен, генератори тестних података, "
+#let kljucne_reci = "Језици специфични за домен, генератори тестних података, CSV, YAML, Neo4j, Cypher"
 #let apstrakt = [
      Научни рад описује софтверски алат за паметно генерисање тестних података за
      различите типове излазних података.
 ]
 
 // На енглеском
-#let kljucne_reci_eng = "Domain specific language, test data generator, "
+#let kljucne_reci_eng = "Domain specific language, test data generator, CSV, YAML, Neo4j, Cypher"
 #let apstrakt_eng = [
     Scientific paper describes a software tool for the smart generation of test
     data for various types of output data .
